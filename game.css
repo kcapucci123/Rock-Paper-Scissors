@@ -1,0 +1,200 @@
+body {
+    background-color: black;
+}
+
+
+#title {
+    color: whitesmoke;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    animation: fadeInAnimation ease 10s;
+    animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    
+
+#sub-title {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    color: whitesmoke;
+    animation: fadeInAnimation ease 10s;
+    animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+.choices {
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    animation: fadeInAnimation ease 10s;
+    animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+
+
+
+
+#yes, #no {
+    display: flex;
+    font-size: 80px;
+    justify-content: space-between;
+    
+    
+}
+
+#yes {
+    margin-right: 200px;
+    padding: 50px;
+    border-radius: 8px;
+
+}
+
+#yes:hover {
+    transform: scale(1.2);
+}
+
+#no {
+    font-size: 80px;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+#no:hover {
+    transform: scale(1.2);
+}
+
+
+.emoji {
+    margin-top: 50px;
+    font-size: 50px;
+    animation: fadeInAnimation ease 10s;
+    animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+#skulls {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+/*AIWon html page*/
+
+.apocolipse{
+    background-image: url('images/robot.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+    opacity: 100%;
+}
+
+
+/* Begin game page*/
+
+.PlayerTitle {
+    font-size: 70px;
+    color:white;
+    /* margin-left: 250px; */
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+
+/* .ComputerTitle {
+    display: inline-block;
+    font-size: 50px;
+    color:white;
+    margin-left: 60%;
+    margin-top: 20%;
+} */
+
+.HumanChoose {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 50%; /* Set a width if needed */
+    margin-left: 500px;
+    margin-top: 200px;
+    
+  }
+
+  
+
+  #Rock, #Paper, #Scissors{
+    display: block;
+    padding: 100px;
+    font-size: 50px;
+    margin: 30px;
+    border-radius: 60%;
+    
+  }
+
+  #Rock:hover {
+    transform: scale(1.2);
+  }
+
+
+  #Paper:hover {
+    transform: scale(1.2);
+  }
+
+  #Scissors:hover {
+    transform: scale(1.2);
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
